@@ -1,6 +1,6 @@
 %define		name bibutils
 %define		version 3.24
-%define		release %mkrel 3
+%define		release %mkrel 4
 
 Summary:	The bibutils program set interconverts between various bibliography formats
 
