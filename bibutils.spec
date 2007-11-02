@@ -40,10 +40,6 @@ mkdir -p %buildroot%{_bindir}
 %clean
 rm -rf %{buildroot}
 
-#%post
-
-#%postun
-
 %files
 %defattr(-,root,root)
 %doc ChangeLog readme.txt
