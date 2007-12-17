@@ -8,7 +8,6 @@ Url:		http://www.scripps.edu/~cdputnam/software/bibutils/bibutils.html
 Source0:	http://www.scripps.edu/~cdputnam/software/bibutils/%{name}_%{version}_src.tar.bz2
 Patch0:		%{name}-3.39-optflags.patch
 Buildrequires:	tcsh
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Bibutils converts between bibliography formats
