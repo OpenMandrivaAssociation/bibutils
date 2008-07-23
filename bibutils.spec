@@ -1,7 +1,7 @@
 Summary:	The bibutils program set interconverts between various bibliography formats
 Name:		bibutils
 Version:	3.39
-Release:	%mkrel 1
+Release:	%mkrel 3
 License:	GPLv2+
 Group:		Sciences/Computer science
 Url:		http://www.scripps.edu/~cdputnam/software/bibutils/bibutils.html
