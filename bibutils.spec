@@ -1,12 +1,11 @@
 Summary:	The bibutils program set interconverts between various bibliography formats
 Name:		bibutils
-Version:	4.6
+Version:	4.7
 Release:	%mkrel 1
 License:	GPLv2+
 Group:		Sciences/Computer science
 Url:		http://www.scripps.edu/~cdputnam/software/bibutils/bibutils.html
 Source0:	http://www.scripps.edu/~cdputnam/software/bibutils/%{name}_%{version}_src.tgz
-#Patch0:		%{name}-3.39-optflags.patch
 Buildrequires:	tcsh
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
@@ -17,7 +16,6 @@ COPAC, and Medline XML using a MODS v3.0 XML intermediate.
 
 %prep
 %setup -q -n %{name}_%{version}
-#%patch0 -p1
 
 %build
 export CFLAGS="%{optflags}"
