@@ -1,4 +1,4 @@
-Summary:	The bibutils program set interconverts between various bibliography formats
+Summary:	Interconvert between various bibliography formats
 Name:		bibutils
 Version:	4.7
 Release:	%mkrel 1
