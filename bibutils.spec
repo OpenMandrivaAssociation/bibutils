@@ -16,11 +16,11 @@ COPAC, and Medline XML using a MODS v3.0 XML intermediate.
 
 %prep
 %setup -q -n %{name}_%{version}
+sed -i.orig "s|/usr/local/bin|%{_bindir}|" configure
 
 %build
 export CFLAGS="%{optflags}"
-./configure \
-	--install-dir=%{_bindir}
+./configure
 
 %make
 
