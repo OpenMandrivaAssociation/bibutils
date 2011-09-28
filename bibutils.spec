@@ -20,7 +20,7 @@ COPAC, and Medline XML using a MODS v3.0 XML intermediate.
 %prep
 %setup -q -n %{name}_%{version}
 # sed -i.orig "s|/usr/local/bin|%{_bindir}|" configure
-%patch0 -p1 -i.missinglib
+%patch0 -p1 -b .missinglib
 
 %build
 export CFLAGS="%{optflags}"
