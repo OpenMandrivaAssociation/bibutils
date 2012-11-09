@@ -1,0 +1,19 @@
+--- bibutils_4.12/test/Makefile_orig	2011-09-28 11:33:56.000000000 +0200
++++ bibutils_4.12/test/Makefile	2011-09-28 11:50:40.000000000 +0200
+@@ -9,13 +9,13 @@ PROGS      = newstr_test entities_test u
+ 
+ all: $(PROGS)
+ 
+-entities_test : entities_test.o ../lib/libbibutils.a
++entities_test : entities_test.o ../lib/libbibutils.a ../lib/libbibcore.a
+ 	$(CC) $(LDFLAGS) $^ $(LOADLIBS) $(LDLIBS) -o $@
+ 
+-utf8_test : utf8_test.o ../lib/libbibutils.a
++utf8_test : utf8_test.o ../lib/libbibutils.a ../lib/libbibcore.a
+ 	$(CC) $(LDFLAGS) $^ $(LOADLIBS) $(LDLIBS) -o $@
+ 
+-newstr_test : newstr_test.o ../lib/libbibutils.a
++newstr_test : newstr_test.o ../lib/libbibutils.a ../lib/libbibcore.a
+ 	$(CC) $(LDFLAGS) $^ $(LOADLIBS) $(LDLIBS) -o $@
+ 
+ test: entities_test newstr_test FORCE
