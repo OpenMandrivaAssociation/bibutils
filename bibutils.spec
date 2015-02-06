@@ -3,7 +3,7 @@
 Summary:	Inter-convert between various bibliography formats
 Name:		bibutils
 Version:	4.12
-Release:	%mkrel 1
+Release:	2
 License:	GPLv2+
 Group:		Sciences/Computer science
 Url:		http://www.scripps.edu/~cdputnam/software/bibutils/bibutils.html
