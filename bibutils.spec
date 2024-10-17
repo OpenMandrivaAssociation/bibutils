@@ -6,7 +6,7 @@ Version:	4.12
 Release:	2
 License:	GPLv2+
 Group:		Sciences/Computer science
-Url:		http://www.scripps.edu/~cdputnam/software/bibutils/bibutils.html
+Url:		https://www.scripps.edu/~cdputnam/software/bibutils/bibutils.html
 Source0:	http://www.scripps.edu/~cdputnam/software/bibutils/%{name}_%{version}_src.tgz
 Patch0:		add_missing_library.patch
 Buildrequires:	tcsh
